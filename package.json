@@ -1,0 +1,24 @@
+{
+  "name": "HRender",
+  "version": "1.0.0",
+  "description": "WebGL 2d图形渲染库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adodo0829/HRender.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adodo0829/HRender/issues"
+  },
+  "homepage": "https://github.com/adodo0829/HRender#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,2 +1,1 @@
-# HRender
-WebGL 2d图形渲染库
+# webgl 2d 渲染库

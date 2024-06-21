@@ -1,24 +1,21 @@
 {
-  "name": "HRender",
-  "version": "1.0.0",
-  "description": "WebGL 2d图形渲染库",
-  "main": "index.js",
+  "name": "hrender",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adodo0829/HRender.git"
+  "dependencies": {
+    "vue": "^3.4.21"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/adodo0829/HRender/issues"
-  },
-  "homepage": "https://github.com/adodo0829/HRender#readme",
   "devDependencies": {
-    "@types/node": "^20.14.6",
-    "typescript": "^5.4.5"
+    "@vitejs/plugin-vue": "^5.0.4",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
   }
 }
